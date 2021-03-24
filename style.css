@@ -1,0 +1,25 @@
+.title {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 130%;
+}
+
+#age {
+  margin-left: 580px;
+}
+
+#day {
+  margin-left: 580px;
+}
+
+#submit {
+  margin-left: 650px;
+}
+
+#reveal {
+  text-align: center;
+}
