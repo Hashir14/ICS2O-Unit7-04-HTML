@@ -9,7 +9,7 @@ function ages () {
   age = document.getElementById('age').value
   age = parseInt(age)
   day = document.getElementById('day').value
-  // The statement below means that only if both the day and age correspond with what the computer has been told to look for in the and/pr statement, then the not below will be displayed.
+  // The statement below means that only if both the day and age correspond with what the computer has been told to look for in the and/or statement, then the note below will be displayed.
   if (age >= 12 && age <= 14 && (day === 'Tuesday' || day === 'Thursday')) {
     document.getElementById('reveal').innerHTML = 'Congrats! You get 50% off your admission because of student pricing.'
   } else {
